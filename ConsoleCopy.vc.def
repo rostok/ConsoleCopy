@@ -1,0 +1,9 @@
+LIBRARY ConsoleCopy
+EXPORTS
+  GetGlobalInfoW
+  SetStartupInfoW
+  GetPluginInfoW
+  ProcessConsoleInputW
+  ExitFARW
+
+  OpenW

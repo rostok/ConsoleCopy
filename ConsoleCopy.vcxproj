@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectName>ConsoleCopy</ProjectName>
+    <ProjectGuid>{356B54C0-12B7-48BD-8881-018AAB9893FA}</ProjectGuid>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <FarSourceRoot Condition="'$(FarSourceRoot)' == ''">$(ProjectDir)..\..</FarSourceRoot>
+  </PropertyGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(FarSourceRoot)\_build\vc\config\common.plugins.props" />
+  </ImportGroup>
+</Project>

@@ -1,0 +1,5 @@
+#define PLUGIN_BUILD 0
+#define PLUGIN_DESC "Console mouse selection and copy"
+#define PLUGIN_NAME "ConsoleCopy"
+#define PLUGIN_FILENAME "ConsoleCopy.dll"
+#include <plugin_version.rc>

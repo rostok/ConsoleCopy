@@ -1,0 +1,8 @@
+NAME = ConsoleCopy
+LINK_OBJS = $(INTDIR)\ConsoleCopy.obj
+
+!include ..\makefile_vc_def_inc
+!include ..\makefile_vc_target_inc
+
+$(INTDIR)\ConsoleCopy.obj: ConsoleCopy.cpp $(COMINC)\plugin.hpp
+
